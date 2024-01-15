@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f7f3f3;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>SILAHKAN RESERVASI TERLEBIH DAHULU</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">NAMA LENGKAP</label>
+    <input type="text" id="fname" name="firstname" placeholder="Nama Anda..">
+
+    <label for="lname">NOMER TELP0N</label>
+    <input type="text" id="lname" name="lastname" placeholder="NO Telpon Anda..">
+
+    <label for="lname">DIVISI</label>
+    <input type="text" id="lname" name="lastname" placeholder="Divisi..">
+    
+    <labe for="BOOKING">JADWAL BOOKING</labe>
+    <input type="text" id="BOOKING" name="jadwal" placeholder="Harap Di Isi..">
+    <p>MULAI : <input type="time"></p>
+    <p>SELESAI : <input type="time"></p>
+
+    <label for="country">BOOKING RUANG</label>
+    <select id="country" name="country">
+      <option value="RUANGAN">APLIKASI (ASI)</option>
+      <option value="RUANGAN">INFRASTRUKTUR TEKNOLOGI (IT)</option>
+      <option value="RUANGAN">DATA STATISTIK (DATIS)</option>
+      <option value="RUANGAN">TATA USAHA (TU)</option>
+  
+     <input type="submit" value="Submit"><br><br>  
+    <a href="index.html">KEMBALI KEBERANDA </a></h3>
+    <h3>HARAP TELITI SAAT MENGISI DATA!</h3>
+  </form>
+</div>
+</body>
+</html>
